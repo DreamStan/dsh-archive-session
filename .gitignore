@@ -1,3 +1,9 @@
+# macOS
+.DS_Store
+
+# DSH plugin build output
+lib/
+
 # Logs
 logs
 *.log

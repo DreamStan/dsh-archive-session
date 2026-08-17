@@ -1,0 +1,6 @@
+# dsh-archive-session bundle 层：插入插件行。
+# 与 dsh-super-injector 相同的 bundle 装配方式：作为 profile 的
+# dsh.profile.bundles 层，把本插件以 entry 形式挂入装配树。
+- insert:
+    - id: archive-session
+      name: '@dsh-external/dsh-archive-session'
